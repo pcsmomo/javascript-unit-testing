@@ -14,4 +14,3 @@ export function extractNumbers(req) {
 
   return [num1Input, num2Input];
 }
-

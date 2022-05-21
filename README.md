@@ -31,4 +31,12 @@ JavaScript Unit Testing - The Practical Guide by Maximilian Schwarzmüller
 
 - [Vitest](https://vitest.dev/): faster and support ES module as well as compatible with Jest
 
+### 12. Installing Vitest
+
+```sh
+mkdir 02-setup
+npm init -y
+npm install --save-dev vitest
+```
+
 </details>

@@ -27,4 +27,8 @@ JavaScript Unit Testing - The Practical Guide by Maximilian Schwarzmüller
 - Test Runner: Jest, Karma
 - Assertion Library: Jest, Chai
 
+### 11. Jest & Vitest
+
+- [Vitest](https://vitest.dev/): faster and support ES module as well as compatible with Jest
+
 </details>

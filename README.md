@@ -20,4 +20,11 @@ JavaScript Unit Testing - The Practical Guide by Maximilian Schwarzmüller
 3. End-toEnd (E2E) Testing
    - real users use your app and its features, not individual units
 
+## Section 2: Setup & Testing Software
+
+### 10. Which Tools Are Needed For Testing?
+
+- Test Runner: Jest, Karma
+- Assertion Library: Jest, Chai
+
 </details>

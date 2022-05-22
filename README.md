@@ -41,6 +41,16 @@ npm install --save-dev vitest
 
 ## Section 3: Testing Basics
 
-### 14. Module Introduction
+### 15. Basic Test File & Project Setup
+
+```json
+{
+  "test": "vitest --run --reporter verbose --globals"
+}
+```
+
+> If we add this `--globals`, we don't need to import { test } or { it } in the test files
+> However, Max prefers to import manually.
+> and between `test` and `it` are synonym, but `it` is more preffered as it can be condensed and we don't want to write essay there
 
 </details>

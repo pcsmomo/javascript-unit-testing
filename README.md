@@ -53,4 +53,16 @@ npm install --save-dev vitest
 > However, Max prefers to import manually.
 > and between `test` and `it` are synonym, but `it` is more preffered as it can be condensed and we don't want to write essay there
 
+### 17. Running Tests
+
+```json
+// package.json
+{
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest --reporter verbose"
+  }
+}
+```
+
 </details>

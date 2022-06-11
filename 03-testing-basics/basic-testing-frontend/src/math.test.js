@@ -36,3 +36,15 @@ it('should yield a correct sum if an array of nemuric string values is provided'
   );
   expect(result).toBe(expectedResult);
 });
+
+it('should yield 0 if an empty array is provided', () => {
+  const numbers = [];
+
+  const result = add(numbers);
+
+  expect(result).toBe(0);
+});
+
+it('should throw an error if no values is passed into the function', () => {
+  const result = add();
+});
